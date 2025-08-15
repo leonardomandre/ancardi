@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ancardi Distribuidora</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="container-fluid">
+    <ul>
+        <li><strong>Ancardi Distribuidora</strong></li>
+    </ul>
+    <ul>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a href="https://wa.me/+5581997650600" role="button" class="whatsapp-btn">Comprar</a></li>
+    </ul>
+</nav>
+
+<main class="container">
+    <div class="grid">
+        <section>
+            <hgroup>
+                <h2>Bem-vindo à Ancardi Distribuidora</h2>
+                <h3>Cuidando da beleza dos seus clientes com qualidade e variedade</h3>
+            </hgroup>
+            <p>Trabalhamos com uma linha completa de produtos profissionais para salões de beleza. Qualidade e entrega rápida para o seu negócio.</p>
+            
+
+            <h3 id="produtos">Nossos Produtos</h3>
+            <div class="grid">
+                <div class="product-card">
+                    <img src="https://acdn-us.mitiendanube.com/stores/001/447/468/products/shampoo_pous_quiumica_1l_hero1-54f390551ef6e369d816885847402437-640-0.jpg" alt="Shampoo">
+                    <h4>Shampoo Profissional</h4>
+                    <p>Limpeza suave e hidratação intensa para todos os tipos de cabelo.</p>
+                    <a href="https://wa.me/+5581997650600" class="whatsapp-btn" role="button">Comprar</a>
+                </div>
+                <div class="product-card">
+                    <img src="https://acdn-us.mitiendanube.com/stores/001/447/468/products/78984301728471-7362a789c4aabeada616872925544531-640-0.jpg" alt="Máscara capilar">
+                    <h4>Máscara Capilar</h4>
+                    <p>Tratamento profundo para fios mais saudáveis e brilhantes.</p>
+                    <a href="https://wa.me/+5581997650600" class="whatsapp-btn" role="button">Comprar</a>
+                </div>
+                <div class="product-card">
+                    <img src="https://ikesaki.vtexassets.com/arquivos/ids/343643-800-auto?v=638652013367570000&width=800&height=auto&aspect=true" alt="Tintura">
+                    <h4>Tintura Profissional</h4>
+                    <p>Cores vibrantes e duradouras com cobertura perfeita.</p>
+                    <a href="https://wa.me/+5581997650600" class="whatsapp-btn" role="button">Comprar</a>
+                </div>
+            </div>
+        </section>
+    </div>
+</main>
+
+<section aria-label="Subscribe example" id="contato">
+    <div class="container">
+        <article>
+            <hgroup>
+                <h2>Cadastre-se (NÃO FUNCIONA)</h2>
+                <h3>Receba novidades e promoções exclusivas</h3>
+            </hgroup>
+            <form class="grid">
+                <input type="text" id="firstname" name="firstname" placeholder="Seu nome" aria-label="Nome" required />
+                <input type="email" id="email" name="email" placeholder="Seu melhor e-mail" aria-label="Email" required />
+                <button type="submit" onclick="event.preventDefault()">Cadastrar</button>
+            </form>
+        </article>
+    </div>
+</section>
+
+<footer class="container">
+    <small>
+        <a href="#">Política de Privacidade</a> • <a href="#">Termos de Uso</a>
+    </small>
+</footer>
+
+</body>
+</html>

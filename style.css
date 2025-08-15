@@ -1,0 +1,43 @@
+body {
+    background-color: #fafafa;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+nav {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    background-color: white;
+    transition: transform 0.2s ease-in-out;
+}
+
+.product-card:hover {
+    transform: scale(1.02);
+}
+
+.product-card img {
+    border-radius: 6px;
+    max-height: 200px;
+    object-fit: contain;
+    width: 100%;
+}
+
+.whatsapp-btn {
+    background-color: #25D366;
+    color: white !important;
+}
+
+footer {
+    margin-top: 2rem;
+    padding: 1rem 0;
+    border-top: 1px solid #e0e0e0;
+}
